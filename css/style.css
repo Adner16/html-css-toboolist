@@ -45,3 +45,26 @@ margin-top: 30px;
     height: 50px;
     margin-top: 20px;
 }
+span{
+    border-radius: 30%;
+    padding: 3px;
+    color: white;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.pink{
+    background-color: pink;
+}
+.fluogreen{
+    background-color: limegreen;
+}
+.lightorange{
+    background-color: lightsalmon;
+}
