@@ -1,5 +1,11 @@
+
+
+img{
+    vertical-align: middle;
+}
 .title{
     display: inline;
+    vertical-align: middle;
 }
 
 body{
@@ -15,11 +21,12 @@ header{
     width: 700px;
     height: 600px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: px;
     background-color: white;
 }
 .link{
     
+    vertical-align: middle;
     text-decoration: none;
     padding: 5px;
     border-radius: 10%;
@@ -27,7 +34,7 @@ header{
 }
 
 .link-container{
-margin-top: 30px;
+height: 50px;
 }
 
 .link1{
