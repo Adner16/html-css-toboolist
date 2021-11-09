@@ -1,0 +1,47 @@
+.title{
+    display: inline;
+}
+
+body{
+    background-color: rgba(246,248,249,255)
+    
+    ;
+}
+header{
+    background-color: white;
+}
+
+.container{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+.link{
+    
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10%;
+    margin-top: 100px;
+}
+
+.link-container{
+margin-top: 30px;
+}
+
+.link1{
+    background-color: rgba(42,143,247,255);
+    color: white;
+    border: 1px solid lightskyblue
+}
+.link2{
+    background-color: white;
+    color: lightslategray;
+    border: 1px solid lightslategray;
+}
+.top{
+    border-bottom: 2px solid rgba(246,248,249,255);
+    height: 50px;
+    margin-top: 20px;
+}
