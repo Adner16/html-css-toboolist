@@ -1,4 +1,13 @@
 
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 img{
     vertical-align: middle;
@@ -15,28 +24,36 @@ body{
 }
 header{
     background-color: white;
+    height: 70px;
+    line-height: 70px;
 }
 
 .container{
     width: 700px;
     height: 600px;
     margin: auto;
-    margin-top: px;
+    margin-top: 30px;
     background-color: white;
+    border-radius: 5px;
+
 }
 .link{
     
     vertical-align: middle;
     text-decoration: none;
     padding: 5px;
-    border-radius: 10%;
-    margin-top: 100px;
+    border-radius: 5px;
 }
 
 .link-container{
 height: 50px;
+line-height: 50px;
+border-bottom: 2px solid rgba(246,248,249,255);
+padding-left: 20px;
 }
-
+.content{
+padding-left: 20px;
+}
 .link1{
     background-color: rgba(42,143,247,255);
     color: white;
@@ -53,7 +70,7 @@ height: 50px;
     margin-top: 20px;
 }
 span{
-    border-radius: 30%;
+    border-radius: 12px;
     padding: 3px;
     color: white;
 }
