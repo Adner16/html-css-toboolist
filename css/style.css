@@ -92,3 +92,22 @@ span{
 .lightorange{
     background-color: lightsalmon;
 }
+.icon{
+    
+    font-size: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.check{
+    color: green;
+    border-color: green;
+}
+.cross{
+    color: red;
+    border-color: red;
+}
