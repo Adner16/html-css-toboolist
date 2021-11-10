@@ -1,12 +1,20 @@
-
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background-color: rgba(246,248,249,255)
 }
+
+/* header */
 
 h1{
     font-size: 40px;
     font-weight: bold;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
@@ -17,16 +25,13 @@ img{
     vertical-align: middle;
 }
 
-body{
-    background-color: rgba(246,248,249,255)
-    
-    ;
-}
 header{
     background-color: white;
     height: 70px;
     line-height: 70px;
 }
+
+/* main */
 
 .container{
     width: 700px;
@@ -45,15 +50,17 @@ header{
     border-radius: 5px;
 }
 
-.link-container{
+.top-section{
 height: 50px;
 line-height: 50px;
 border-bottom: 2px solid rgba(246,248,249,255);
 padding-left: 20px;
 }
+
 .content{
 padding-left: 20px;
 }
+
 .link1{
     background-color: rgba(42,143,247,255);
     color: white;
@@ -64,15 +71,11 @@ padding-left: 20px;
     color: lightslategray;
     border: 1px solid lightslategray;
 }
-.top{
-    border-bottom: 2px solid rgba(246,248,249,255);
-    height: 50px;
-    margin-top: 20px;
-}
+
 span{
     border-radius: 12px;
     padding: 3px;
-    color: white;
+    color:;
 }
 .lightblue{
     background-color: lightblue;
@@ -110,4 +113,7 @@ span{
 .cross{
     color: red;
     border-color: red;
+}
+p > span{
+    color: white;
 }
