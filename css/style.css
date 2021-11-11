@@ -1,3 +1,5 @@
+/* general */
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +37,7 @@ header{
 
 .container{
     width: 700px;
-    height: 600px;
+    height: 580px;
     margin: auto;
     margin-top: 30px;
     background-color: white;
@@ -71,14 +73,19 @@ padding-left: 20px;
     color: lightslategray;
     border: 1px solid lightslategray;
 }
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 15px;
+}
 
 
 /* etichette */
 
-span{
+.label{
     border-radius: 12px;
     padding: 3px 5px;
-    color: white;
 }
 .lightblue{
     background-color: lightblue;
